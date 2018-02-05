@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random Quote Machine</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel='stylesheet' type='text/css' href='./styles.css'>
+</head>
+<body>
+  <div class='container text-center'>
+    <h1>Random Quote Machine</h1>
+    <div class='jumbotron'>
+      <blockquote class='blockquote'>
+        <p id='quote' class='mb-0'></p>
+        <footer id='author' class='blockquote-footer'></footer>
+      </blockquote>
+      <div class='row'>
+        <div class='col'>
+          <button id='twitter' class='btn btn-default'>
+            <i class='fa fa-twitter'></i>
+          </button>
+        </div>
+        <div class='col'>
+          <button id='getQuote' class='btn btn-default'>
+            New Quote
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src='./main.js'></script>
+</body>
+</html>

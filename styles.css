@@ -1,0 +1,18 @@
+body {
+  margin-top: 60px;
+  background-color: #006D75;
+}
+
+h1, p {
+  color: white;
+}
+
+.btn {
+  border: 2px solid #EA7200;
+  background-color: #006D75;
+  color: white;
+}
+
+.jumbotron {
+  background-color: black;
+}
