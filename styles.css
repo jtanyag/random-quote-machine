@@ -1,6 +1,7 @@
 body {
   margin-top: 60px;
   background-color: #006D75;
+  font-family: monospace;
 }
 
 h1, p {
