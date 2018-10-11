@@ -8,6 +8,9 @@ h1, p {
   color: white;
 }
 
+.blockquote-footer {
+  color: #EA7200;
+}
 .btn {
   border: 2px solid #EA7200;
   background-color: #006D75;
