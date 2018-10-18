@@ -4,6 +4,10 @@ body {
   font-family: sans-serif;
 }
 
+h1 {
+  text-shadow: 2px 2px #EA7200;
+}
+
 h1, p {
   color: white;
 }
